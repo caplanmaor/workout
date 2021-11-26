@@ -20,6 +20,7 @@ header,form{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 15px;
 }
 
 form input, form button{
@@ -27,6 +28,7 @@ form input, form button{
     font-size: 2rem;
     border: none;
     background: white;
+    width: 30%;
 }
 
 form button {
@@ -34,6 +36,7 @@ form button {
     background: white;
     cursor: pointer;
     transition: all 0.3s ease;
+    width: 50px;
 }
 
 form button:hover {
